@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Głosuj na mnie - TARKA2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="kopernik.png" alt="Logo szkoły" class="logo">
+    <h1>TARKA2025</h1>
+    <nav>
+      <div class="menu-icon">☰</div>
+      <div class="menu">
+        <a href="index.html">Strona główna</a>
+        <a href="o-mnie.html">O mnie</a>
+        <a href="plan.html">Plan wyborczy</a>
+        <a href="sztab.html">Sztab</a>
+        <a href="glosuj.html">Głosuj na mnie</a>
+      </div>
+    </nav>
+  </header>
+
+ <main>
+  <h1 class="page-title">Oddaj swój głos!</h1>
+
+  <div class="vote-container">
+    <button class="vote-button">🗳️ Głosuj na mnie!</button>
+  </div>
+
+  <div class="unicorn unicorn1">🦄</div>
+  <div class="unicorn unicorn2">🦄</div>
+  <div class="unicorn unicorn3">🦄</div>
+
+
+  <div class="dog-photo">
+    <img src="pies.jpg" alt="Uroczy piesek wspiera kandydatkę">
+  </div>
+</main>
+  <footer>
+    <p>&copy; 2025 Wiktoria Tarkowska</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuIcon = document.querySelector(".menu-icon");
+      const menu = document.querySelector("nav .menu");
+      menuIcon.addEventListener("click", function() {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>

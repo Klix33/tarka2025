@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan wyborczy - TARKA2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="kopernik.png" alt="Logo szkoły" class="logo">
+    <h1>TARKA2025</h1>
+    <nav>
+      <div class="menu-icon">☰</div>
+      <div class="menu">
+        <a href="index.html">Strona główna</a>
+        <a href="o-mnie.html">O mnie</a>
+        <a href="plan.html">Plan wyborczy</a>
+        <a href="sztab.html">Sztab</a>
+        <a href="glosuj.html">Głosuj na mnie</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">PLAN WYBORCZY</h1>
+
+   <section class="section">
+  <h2>1. Skrzynka dobrych pomysłów</h2>
+  <p>Na propozycje od Was na uatrakcyjnienie pracy Samorządu Uczniowskiego!</p>
+</section>
+
+<section class="section">
+  <h2>2. Organizacja dni tematycznych</h2>
+  <p>Mikołajki, dzień szkolnej bluzy, walentynki, dzień bez pytania itp.</p>
+</section>
+
+<section class="section">
+  <h2>3. Współpraca ze Szkolnym Kołem Wolontariatu, Szkolnym Kołem PTTK 
+        i Szkolną Grupą Praw Człowieka</h2>
+  <p>wspólne działania na rzecz integracji, rozwoju i aktywności uczniów.</p>
+</section>
+
+<section class="section">
+  <h2>4. Zniżka -7% w sklepie Grafix</h2>
+  <p>Tylko dla uczniów naszej szkoły – przy okazaniu kluczyka od szafki, rabat -7%</p>
+</section>
+
+<section class="section">
+  <h2>5. Różowa skrzyneczka</h2>
+  <p>Miejsce z darmowymi środkami higienicznymi dla osób potrzebujących.</p>
+</section>
+
+<section class="section">
+  <h2>6. Konkursy i turnieje sportowe</h2>
+  <p>Szkolne zawody sportowe dla rywalizacji i integracji między klasami.</p>
+</section>
+
+<section class="section">
+  <h2>7. Organizacja dyskotek</h2>
+  <p>wspólna zabawa i integracja uczniów w przyjaznej atmosferze.</p>
+</section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wiktoria Tarkowska</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuIcon = document.querySelector(".menu-icon");
+      const menu = document.querySelector("nav .menu");
+      menuIcon.addEventListener("click", function() {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O mnie - TARKA2025</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="kopernik.png" alt="Logo szkoły" class="logo">
+    <h1>TARKA2025</h1>
+    <nav>
+      <div class="menu-icon">☰</div>
+      <div class="menu">
+        <a href="index.html">Strona główna</a>
+        <a href="o-mnie.html">O mnie</a>
+        <a href="plan.html">Plan wyborczy</a>
+        <a href="sztab.html">Sztab</a>
+        <a href="glosuj.html">Głosuj na mnie</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="page-title">O mnie</h1>
+
+    <section class="about-box">
+      <img src="wiktoriaomnie.jpg" alt="Wiktoria Tarkowska" class="about-photo">
+      <div class="about-text">
+        <h2>Cześć! 👋</h2>
+        <p>
+          Nazywam się <strong>Wiktoria Tarkowska</strong> i kandyduję na przewodniczącą szkoły. 
+          Jestem osobą, która wierzy, że szkoła może być miejscem jeszcze bardziej przyjaznym, 
+          nowoczesnym i pełnym możliwości.
+        </p>
+        <p>
+          Moim celem jest reprezentowanie głosu wszystkich uczniów oraz wprowadzanie pomysłów, 
+          które sprawią, że każdy dzień w naszej szkole będzie lepszy.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Wiktoria Tarkowska</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuIcon = document.querySelector(".menu-icon");
+      const menu = document.querySelector("nav .menu");
+      menuIcon.addEventListener("click", function() {
+        menu.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>
