@@ -178,6 +178,30 @@ nav .menu-icon {
     color: #001f3f;
 }
 
+.about-text a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #001f3f;
+  text-decoration: none;
+  font-size: 2vh;
+}
+
+.about-text a:hover {
+  color: #e1306c;
+}
+
+.insta-icon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s;
+}
+
+.insta-icon:hover {
+  transform: scale(1.2);
+}
+
 /* ===== FOOTER ===== */
 footer {
     background-color: #001f3f;
