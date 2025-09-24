@@ -224,8 +224,8 @@ footer {
 }
 
 .sztab-member a img {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   vertical-align: middle;
   transition: transform 0.2s;
 }
