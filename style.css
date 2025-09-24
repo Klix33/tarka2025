@@ -217,6 +217,21 @@ footer {
   font-size: 2.2vh;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+.sztab-member a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.sztab-member a img:hover {
+  transform: scale(1.2);
 }
 
 /* ===== MOBILE ===== */
@@ -270,8 +285,12 @@ footer {
         width: 80%;           
         max-width: 90%;
     }
-}
 
+    .sztab-member {
+        flex-direction: column;
+        gap: 1vh;
+    }
+}
 
 /* ===== GŁOSUJ NA MNIE ===== */
 .vote-container {
@@ -297,7 +316,7 @@ footer {
   box-shadow: 0 0.8vh 1.5vh rgba(0,0,0,0.3);
 }
 
-/* Jednorożce */
+/* ===== UNICORNS ===== */
 .unicorn {
   position: fixed;
   font-size: 5vh;
@@ -328,7 +347,7 @@ footer {
   100% { left: -15%; transform: rotate(0deg) scale(1); }
 }
 
-/* Zdjęcie pieska */
+/* ===== DOG PHOTO ===== */
 .dog-photo {
   text-align: center;
   margin: 5vh auto;
